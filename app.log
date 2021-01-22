@@ -1,0 +1,23 @@
+2021-01-22 15:55:53.481  INFO 10104 --- [main] c.c.s.SpringbootmvcjpaApplication        : Starting SpringbootmvcjpaApplication using Java 1.8.0_261 on DESKTOP-CAQIOHU with PID 10104 (C:\Users\chand\Documents\MySpring\springbootmvcjpa\target\classes started by chand in C:\Users\chand\Documents\MySpring\springbootmvcjpa)
+2021-01-22 15:55:53.559  INFO 10104 --- [main] c.c.s.SpringbootmvcjpaApplication        : No active profile set, falling back to default profiles: default
+2021-01-22 15:56:00.513  INFO 10104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-22 15:56:03.081  INFO 10104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2527 ms. Found 1 JPA repository interfaces.
+2021-01-22 15:56:07.447  INFO 10104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-22 15:56:07.476  INFO 10104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-22 15:56:07.481  INFO 10104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-22 15:56:10.915  INFO 10104 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-01-22 15:56:11.823  INFO 10104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-22 15:56:11.824  INFO 10104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 18048 ms
+2021-01-22 15:56:34.592  INFO 10104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-22 15:56:37.973  INFO 10104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-22 15:56:38.327  INFO 10104 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-22 15:56:38.693  INFO 10104 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-22 15:56:39.238  INFO 10104 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-22 15:56:39.705  INFO 10104 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-22 15:56:43.139  INFO 10104 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-22 15:56:43.168  INFO 10104 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-22 15:56:44.516  WARN 10104 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-22 15:56:44.923  INFO 10104 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-22 15:56:46.313  INFO 10104 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-22 15:56:46.754  INFO 10104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-22 15:56:46.775  INFO 10104 --- [main] c.c.s.SpringbootmvcjpaApplication        : Started SpringbootmvcjpaApplication in 55.35 seconds (JVM running for 71.319)
